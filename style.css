@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  background-image: url(img/rain.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.intro {
+  position: absolute;
+  top: 35%;
+  margin: auto;
+  width: 500px;
+  left: 33.5%;
+  background-color: #7bd3ea;
+  text-align: center;
+  color: #f6f7c4;
+  border-radius: 12px;
+}
+.intro p {
+  padding: 1.5rem;
+  font-size: 2rem;
+  font-family: "Oregano", cursive;
+}
+.btn {
+  position: absolute;
+  top: 5%;
+  left: 88%;
+}
+.moss {
+  padding: 5px 20px;
+  border: 0;
+  outline: 0;
+  background-color: #f875aa;
+  text-align: center;
+  font-size: 1.5rem;
+  border-radius: 12px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+.moss:hover {
+  color: #aedefc;
+}
+
+.second {
+  background-image: url(img/pic.png);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.clue {
+  position: absolute;
+  top: 90%;
+  left: 90%;
+}
+.grid-container {
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-content: center;
+}
+.grid-container img {
+  margin-left: 15%;
+  width: 70%;
+}
